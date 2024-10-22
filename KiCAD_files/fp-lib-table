@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "optical_sensors")(type "KiCad")(uri "${KIPRJMOD}/optical_sensors.pretty")(options "")(descr ""))
+)

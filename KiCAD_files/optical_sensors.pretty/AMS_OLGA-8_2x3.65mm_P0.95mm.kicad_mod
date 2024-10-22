@@ -1,0 +1,143 @@
+(footprint "AMS_OLGA-8_2x3.65mm_P0.95mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "AMS OLGA, 8 Pin (https://look.ams-osram.com/m/6a4d0816b7d3a4bf/original/TMD3725-ALS-Color-and-Proximity-Sensor-Module.pdf/#page=44)")
+	(tags "AMS OLGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 -4.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "28046cf5-efa5-494e-9049-ec6501d700ba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "AMS_OLGA-8_2x3.65mm_P0.95mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0d7cb7a7-0a32-43d8-8ca1-cee48d897736")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8afa852a-f626-4e63-b630-cbd510341ecb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b323d1a7-d655-4964-9c63-51e1a78b6411")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "74cdb6a2-ee31-4e88-a4db-3fc7bccccfad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "632d5b8a-eaef-4fed-b2b2-92523cf1c0a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.675 -1.425)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0)
+		(chamfer_ratio 0.5)
+		(chamfer bottom_right)
+		(thermal_bridge_angle 45)
+		(uuid "5c04c253-c829-417b-97e4-a97dfb755b75")
+	)
+	(pad "2" smd rect
+		(at -0.675 -0.475)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c8bdaaf7-538e-4a70-bd9a-f3cc03523946")
+	)
+	(pad "3" smd rect
+		(at -0.675 0.475)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ddc70918-b47b-4657-978e-b424d8c20c19")
+	)
+	(pad "4" smd rect
+		(at -0.675 1.425)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2e3532a6-9595-4429-a653-6b6860bd589c")
+	)
+	(pad "5" smd rect
+		(at 0.675 1.425)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "148875ad-94c3-44bd-8b18-9eea6c681250")
+	)
+	(pad "6" smd rect
+		(at 0.675 0.475)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2645f5ae-c272-4dd8-90e4-3e12bf1112bb")
+	)
+	(pad "7" smd rect
+		(at 0.675 -0.475)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "fff33772-3223-4fd0-9c4b-f1f5bf60b900")
+	)
+	(pad "8" smd rect
+		(at 0.675 -1.425)
+		(size 0.5 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0b622807-5cc9-4691-aee3-aaaa7766d244")
+	)
+)
