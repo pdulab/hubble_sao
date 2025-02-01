@@ -7196,6 +7196,7 @@
 	(symbol
 		(lib_id "optical_sensors:AD8532")
 		(at 255.27 102.87 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7203,7 +7204,7 @@
 		(dnp no)
 		(uuid "0ed7ff3f-e42f-4986-9496-cb818aebcaed")
 		(property "Reference" "U4"
-			(at 255.27 108.712 0)
+			(at 255.27 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7212,7 @@
 			)
 		)
 		(property "Value" "AD8532"
-			(at 255.27 111.252 0)
+			(at 255.27 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7496,6 +7497,7 @@
 	(symbol
 		(lib_id "optical_sensors:AD8532")
 		(at 179.07 134.62 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7503,7 +7505,7 @@
 		(dnp no)
 		(uuid "1a3a4a96-8d33-4eef-9853-8473acc8e527")
 		(property "Reference" "U5"
-			(at 179.07 140.462 0)
+			(at 179.07 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7511,7 +7513,7 @@
 			)
 		)
 		(property "Value" "AD8532"
-			(at 179.07 143.002 0)
+			(at 179.07 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7925,6 +7927,7 @@
 	(symbol
 		(lib_id "optical_sensors:AD8532")
 		(at 179.07 102.87 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7932,7 +7935,7 @@
 		(dnp no)
 		(uuid "2d323060-e684-4447-a4c5-0820f2cc1868")
 		(property "Reference" "U5"
-			(at 179.07 108.712 0)
+			(at 179.07 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7940,7 +7943,7 @@
 			)
 		)
 		(property "Value" "AD8532"
-			(at 179.07 111.252 0)
+			(at 179.07 108.966 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12387,6 +12390,7 @@
 	(symbol
 		(lib_id "optical_sensors:AD8532")
 		(at 255.27 134.62 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12394,7 +12398,7 @@
 		(dnp no)
 		(uuid "f92d64c7-9d4e-49d8-8d01-8c6c743d228c")
 		(property "Reference" "U4"
-			(at 255.27 140.462 0)
+			(at 255.27 143.256 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12402,7 +12406,7 @@
 			)
 		)
 		(property "Value" "AD8532"
-			(at 255.27 143.002 0)
+			(at 255.27 140.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
