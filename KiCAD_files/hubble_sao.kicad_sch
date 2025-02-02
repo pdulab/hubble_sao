@@ -5,6 +5,259 @@
 	(uuid "9cd05651-fad9-4e28-8d04-6923ebe26f0c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:TLV9062xD"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV9062xD"
+				(at 2.54 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+				(at 6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual op-amp low power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TLV9062xD_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062xD_2_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "TLV9062xD_3_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
 			(pin_names
 				(offset 1.016) hide)
@@ -2683,250 +2936,6 @@
 						)
 					)
 					(number "SH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "optical_sensors:AD8532"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AD8532"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Dual Operational Amplifiers"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "dual opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AD8532_1_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AD8532_2_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AD8532_3_1"
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7043,91 +7052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "optical_sensors:AD8532")
-		(at 177.8 153.67 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0b46ee40-3c3c-4053-aae6-b01669e5a740")
-		(property "Reference" "U5"
-			(at 177.8 149.352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8532"
-			(at 177.8 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 177.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-			(at 177.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers"
-			(at 177.8 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5ebefb6f-84de-4a04-8e33-2170dae8c6dd")
-		)
-		(pin "5"
-			(uuid "9c5b564c-6335-4066-bc8e-c89d6e63500f")
-		)
-		(pin "7"
-			(uuid "256d7c2f-0252-467b-af2d-7742ba862180")
-		)
-		(pin "6"
-			(uuid "b6e1f47a-e42d-4d9f-b604-95eb01c31808")
-		)
-		(pin "8"
-			(uuid "f6e96052-5559-43cc-9c6f-4fe5a6dfb8b3")
-		)
-		(pin "3"
-			(uuid "16b49e38-dbe5-4e39-a214-c80b3e62cc00")
-		)
-		(pin "1"
-			(uuid "b4eacdbd-bf96-43bf-b430-d8465f40091e")
-		)
-		(pin "2"
-			(uuid "0ae0427e-fb20-4140-858d-033bb80568ce")
-		)
-		(instances
-			(project ""
-				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
-					(reference "U5")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at -3.81 50.8 0)
 		(unit 1)
@@ -7188,92 +7112,6 @@
 			(project ""
 				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "optical_sensors:AD8532")
-		(at 255.27 102.87 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ed7ff3f-e42f-4986-9496-cb818aebcaed")
-		(property "Reference" "U4"
-			(at 255.27 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8532"
-			(at 255.27 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 255.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-			(at 255.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers"
-			(at 255.27 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5ebefb6f-84de-4a04-8e33-2170dae8c6de")
-		)
-		(pin "5"
-			(uuid "9c5b564c-6335-4066-bc8e-c89d6e635010")
-		)
-		(pin "7"
-			(uuid "256d7c2f-0252-467b-af2d-7742ba862181")
-		)
-		(pin "6"
-			(uuid "b6e1f47a-e42d-4d9f-b604-95eb01c31809")
-		)
-		(pin "8"
-			(uuid "f6e96052-5559-43cc-9c6f-4fe5a6dfb8b4")
-		)
-		(pin "1"
-			(uuid "c0f9f3be-ef0a-482a-9725-77b9549db58f")
-		)
-		(pin "3"
-			(uuid "16b49e38-dbe5-4e39-a214-c80b3e62cc01")
-		)
-		(pin "2"
-			(uuid "0ae0427e-fb20-4140-858d-033bb80568cf")
-		)
-		(instances
-			(project ""
-				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7495,92 +7333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "optical_sensors:AD8532")
-		(at 179.07 134.62 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a3a4a96-8d33-4eef-9853-8473acc8e527")
-		(property "Reference" "U5"
-			(at 179.07 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8532"
-			(at 179.07 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 179.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-			(at 179.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers"
-			(at 179.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5ebefb6f-84de-4a04-8e33-2170dae8c6df")
-		)
-		(pin "5"
-			(uuid "9c5b564c-6335-4066-bc8e-c89d6e635011")
-		)
-		(pin "7"
-			(uuid "256d7c2f-0252-467b-af2d-7742ba862182")
-		)
-		(pin "6"
-			(uuid "b6e1f47a-e42d-4d9f-b604-95eb01c3180a")
-		)
-		(pin "8"
-			(uuid "f6e96052-5559-43cc-9c6f-4fe5a6dfb8b5")
-		)
-		(pin "3"
-			(uuid "16b49e38-dbe5-4e39-a214-c80b3e62cc02")
-		)
-		(pin "1"
-			(uuid "b4eacdbd-bf96-43bf-b430-d8465f40091f")
-		)
-		(pin "2"
-			(uuid "0ae0427e-fb20-4140-858d-033bb80568d0")
-		)
-		(instances
-			(project ""
-				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 266.7 39.37 0)
 		(unit 1)
@@ -7784,6 +7536,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9062xD")
+		(at 255.27 134.62 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25f9ec8b-05ad-4c9f-a8aa-78b1856e6cfa")
+		(property "Reference" "U4"
+			(at 255.27 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062xD"
+			(at 255.27 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 257.81 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 261.62 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+			(at 255.27 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f12bc11f-a1a3-49c3-8f5d-bc082064e465")
+		)
+		(pin "6"
+			(uuid "0a4f2456-32e8-4c44-828a-73ebed1e2766")
+		)
+		(pin "5"
+			(uuid "5cea4f8e-5507-445e-9d0b-6105a1556e3d")
+		)
+		(pin "3"
+			(uuid "09496ba7-811e-4e0e-b2d7-3eb9c220709e")
+		)
+		(pin "2"
+			(uuid "6409988b-04bc-4f1d-9457-b696587c3c5a")
+		)
+		(pin "4"
+			(uuid "3837fd98-43f5-48ce-958a-93e086c32032")
+		)
+		(pin "1"
+			(uuid "5868b242-523b-4f74-8b57-342a145e2c26")
+		)
+		(pin "8"
+			(uuid "8053897c-47c3-41a5-9f33-eb17be722169")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "optical_sensors:VEML3328")
 		(at 254 45.72 0)
 		(unit 1)
@@ -7920,92 +7758,6 @@
 				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
 					(reference "C6")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "optical_sensors:AD8532")
-		(at 179.07 102.87 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2d323060-e684-4447-a4c5-0820f2cc1868")
-		(property "Reference" "U5"
-			(at 179.07 111.506 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8532"
-			(at 179.07 108.966 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers"
-			(at 179.07 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5ebefb6f-84de-4a04-8e33-2170dae8c6e0")
-		)
-		(pin "5"
-			(uuid "9c5b564c-6335-4066-bc8e-c89d6e635012")
-		)
-		(pin "7"
-			(uuid "256d7c2f-0252-467b-af2d-7742ba862183")
-		)
-		(pin "6"
-			(uuid "b6e1f47a-e42d-4d9f-b604-95eb01c3180b")
-		)
-		(pin "8"
-			(uuid "f6e96052-5559-43cc-9c6f-4fe5a6dfb8b6")
-		)
-		(pin "1"
-			(uuid "c0f9f3be-ef0a-482a-9725-77b9549db590")
-		)
-		(pin "3"
-			(uuid "16b49e38-dbe5-4e39-a214-c80b3e62cc03")
-		)
-		(pin "2"
-			(uuid "0ae0427e-fb20-4140-858d-033bb80568d1")
-		)
-		(instances
-			(project ""
-				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
-					(reference "U5")
-					(unit 2)
 				)
 			)
 		)
@@ -8742,6 +8494,178 @@
 				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
 					(reference "R2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9062xD")
+		(at 177.8 156.21 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b4ff208-3ff0-4e3e-8bd0-18780553667a")
+		(property "Reference" "U5"
+			(at 177.8 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062xD"
+			(at 177.8 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 177.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+			(at 177.8 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f12bc11f-a1a3-49c3-8f5d-bc082064e465")
+		)
+		(pin "6"
+			(uuid "0a4f2456-32e8-4c44-828a-73ebed1e2766")
+		)
+		(pin "5"
+			(uuid "5cea4f8e-5507-445e-9d0b-6105a1556e3d")
+		)
+		(pin "3"
+			(uuid "09496ba7-811e-4e0e-b2d7-3eb9c220709e")
+		)
+		(pin "2"
+			(uuid "6409988b-04bc-4f1d-9457-b696587c3c5a")
+		)
+		(pin "4"
+			(uuid "3837fd98-43f5-48ce-958a-93e086c32032")
+		)
+		(pin "1"
+			(uuid "5868b242-523b-4f74-8b57-342a145e2c26")
+		)
+		(pin "8"
+			(uuid "8053897c-47c3-41a5-9f33-eb17be722169")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "U5")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9062xD")
+		(at 179.07 102.87 0)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bf1a949-eddb-4219-9cac-8cb55c2a563b")
+		(property "Reference" "U5"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062xD"
+			(at 179.07 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 181.61 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 185.42 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+			(at 179.07 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f12bc11f-a1a3-49c3-8f5d-bc082064e465")
+		)
+		(pin "6"
+			(uuid "0a4f2456-32e8-4c44-828a-73ebed1e2766")
+		)
+		(pin "5"
+			(uuid "5cea4f8e-5507-445e-9d0b-6105a1556e3d")
+		)
+		(pin "3"
+			(uuid "09496ba7-811e-4e0e-b2d7-3eb9c220709e")
+		)
+		(pin "2"
+			(uuid "6409988b-04bc-4f1d-9457-b696587c3c5a")
+		)
+		(pin "4"
+			(uuid "3837fd98-43f5-48ce-958a-93e086c32032")
+		)
+		(pin "1"
+			(uuid "5868b242-523b-4f74-8b57-342a145e2c26")
+		)
+		(pin "8"
+			(uuid "8053897c-47c3-41a5-9f33-eb17be722169")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -10157,6 +10081,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9062xD")
+		(at 179.07 134.62 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d65bd84-61c2-4d2c-80ad-6601eb4a6aaf")
+		(property "Reference" "U5"
+			(at 179.07 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062xD"
+			(at 179.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 181.61 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 185.42 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+			(at 179.07 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f12bc11f-a1a3-49c3-8f5d-bc082064e465")
+		)
+		(pin "6"
+			(uuid "0a4f2456-32e8-4c44-828a-73ebed1e2766")
+		)
+		(pin "5"
+			(uuid "5cea4f8e-5507-445e-9d0b-6105a1556e3d")
+		)
+		(pin "3"
+			(uuid "09496ba7-811e-4e0e-b2d7-3eb9c220709e")
+		)
+		(pin "2"
+			(uuid "6409988b-04bc-4f1d-9457-b696587c3c5a")
+		)
+		(pin "4"
+			(uuid "3837fd98-43f5-48ce-958a-93e086c32032")
+		)
+		(pin "1"
+			(uuid "5868b242-523b-4f74-8b57-342a145e2c26")
+		)
+		(pin "8"
+			(uuid "8053897c-47c3-41a5-9f33-eb17be722169")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 78.74 33.02 0)
 		(unit 1)
@@ -10931,6 +10941,92 @@
 				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
 					(reference "#PWR033")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:TLV9062xD")
+		(at 254 154.94 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be12f5f0-254a-43b8-bafb-b66dfd534c61")
+		(property "Reference" "U4"
+			(at 254 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062xD"
+			(at 254 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 254 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 250.19 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+			(at 254 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f12bc11f-a1a3-49c3-8f5d-bc082064e465")
+		)
+		(pin "6"
+			(uuid "0a4f2456-32e8-4c44-828a-73ebed1e2766")
+		)
+		(pin "5"
+			(uuid "5cea4f8e-5507-445e-9d0b-6105a1556e3d")
+		)
+		(pin "3"
+			(uuid "09496ba7-811e-4e0e-b2d7-3eb9c220709e")
+		)
+		(pin "2"
+			(uuid "6409988b-04bc-4f1d-9457-b696587c3c5a")
+		)
+		(pin "4"
+			(uuid "3837fd98-43f5-48ce-958a-93e086c32032")
+		)
+		(pin "1"
+			(uuid "5868b242-523b-4f74-8b57-342a145e2c26")
+		)
+		(pin "8"
+			(uuid "8053897c-47c3-41a5-9f33-eb17be722169")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "U4")
+					(unit 3)
 				)
 			)
 		)
@@ -11814,6 +11910,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:TLV9062xD")
+		(at 255.27 102.87 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1e2e149-e863-447f-8869-0e0652515f42")
+		(property "Reference" "U4"
+			(at 255.27 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV9062xD"
+			(at 255.27 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 257.81 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
+			(at 261.62 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
+			(at 255.27 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "f12bc11f-a1a3-49c3-8f5d-bc082064e465")
+		)
+		(pin "6"
+			(uuid "0a4f2456-32e8-4c44-828a-73ebed1e2766")
+		)
+		(pin "5"
+			(uuid "5cea4f8e-5507-445e-9d0b-6105a1556e3d")
+		)
+		(pin "3"
+			(uuid "09496ba7-811e-4e0e-b2d7-3eb9c220709e")
+		)
+		(pin "2"
+			(uuid "6409988b-04bc-4f1d-9457-b696587c3c5a")
+		)
+		(pin "4"
+			(uuid "3837fd98-43f5-48ce-958a-93e086c32032")
+		)
+		(pin "1"
+			(uuid "5868b242-523b-4f74-8b57-342a145e2c26")
+		)
+		(pin "8"
+			(uuid "8053897c-47c3-41a5-9f33-eb17be722169")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "optical_sensors:LSM6DSO")
 		(at 179.07 53.34 0)
 		(unit 1)
@@ -12383,178 +12565,6 @@
 				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
 					(reference "#PWR024")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "optical_sensors:AD8532")
-		(at 255.27 134.62 0)
-		(mirror x)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f92d64c7-9d4e-49d8-8d01-8c6c743d228c")
-		(property "Reference" "U4"
-			(at 255.27 143.256 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8532"
-			(at 255.27 140.716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 255.27 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-			(at 255.27 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers"
-			(at 255.27 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5ebefb6f-84de-4a04-8e33-2170dae8c6e1")
-		)
-		(pin "5"
-			(uuid "9c5b564c-6335-4066-bc8e-c89d6e635013")
-		)
-		(pin "7"
-			(uuid "256d7c2f-0252-467b-af2d-7742ba862184")
-		)
-		(pin "6"
-			(uuid "b6e1f47a-e42d-4d9f-b604-95eb01c3180c")
-		)
-		(pin "8"
-			(uuid "f6e96052-5559-43cc-9c6f-4fe5a6dfb8b7")
-		)
-		(pin "1"
-			(uuid "c0f9f3be-ef0a-482a-9725-77b9549db591")
-		)
-		(pin "3"
-			(uuid "16b49e38-dbe5-4e39-a214-c80b3e62cc04")
-		)
-		(pin "2"
-			(uuid "0ae0427e-fb20-4140-858d-033bb80568d2")
-		)
-		(instances
-			(project ""
-				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "optical_sensors:AD8532")
-		(at 254 152.4 90)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa968b60-ce44-4d8d-9e2f-008f8268acb4")
-		(property "Reference" "U4"
-			(at 254 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AD8532"
-			(at 254 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 254 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
-			(at 254 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifiers"
-			(at 254 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "5ebefb6f-84de-4a04-8e33-2170dae8c6e2")
-		)
-		(pin "5"
-			(uuid "9c5b564c-6335-4066-bc8e-c89d6e635014")
-		)
-		(pin "7"
-			(uuid "256d7c2f-0252-467b-af2d-7742ba862185")
-		)
-		(pin "6"
-			(uuid "b6e1f47a-e42d-4d9f-b604-95eb01c3180d")
-		)
-		(pin "8"
-			(uuid "f6e96052-5559-43cc-9c6f-4fe5a6dfb8b8")
-		)
-		(pin "3"
-			(uuid "16b49e38-dbe5-4e39-a214-c80b3e62cc05")
-		)
-		(pin "1"
-			(uuid "b4eacdbd-bf96-43bf-b430-d8465f400920")
-		)
-		(pin "2"
-			(uuid "0ae0427e-fb20-4140-858d-033bb80568d3")
-		)
-		(instances
-			(project ""
-				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
-					(reference "U4")
-					(unit 3)
 				)
 			)
 		)

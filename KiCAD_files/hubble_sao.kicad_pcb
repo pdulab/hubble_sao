@@ -5974,7 +5974,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "AD8532"
+		(property "Value" "TLV9062xD"
 			(at 0 -3.4 90)
 			(layer "B.Fab")
 			(uuid "dfd97b34-41df-41a5-a136-b66170d808cf")
@@ -6000,7 +6000,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6014,7 +6014,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Dual Operational Amplifiers"
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6028,7 +6028,8 @@
 				(justify mirror)
 			)
 		)
-		(path "/fa968b60-ce44-4d8d-9e2f-008f8268acb4")
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
+		(path "/be12f5f0-254a-43b8-bafb-b66dfd534c61")
 		(sheetname "Root")
 		(sheetfile "hubble_sao.kicad_sch")
 		(attr smd)
@@ -9195,7 +9196,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "AD8532"
+		(property "Value" "TLV9062xD"
 			(at 0 -3.4 90)
 			(layer "B.Fab")
 			(uuid "c50beb21-77c9-4c6e-bd33-f41e1ad5df17")
@@ -9221,7 +9222,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8531_8532_8534.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9062.pdf"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9235,7 +9236,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Dual Operational Amplifiers"
+		(property "Description" "Dual operational amplifier, 300 uV Offset, SOIC-8"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -9249,7 +9250,8 @@
 				(justify mirror)
 			)
 		)
-		(path "/2d323060-e684-4447-a4c5-0820f2cc1868")
+		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm*")
+		(path "/9d65bd84-61c2-4d2c-80ad-6601eb4a6aaf")
 		(sheetname "Root")
 		(sheetfile "hubble_sao.kicad_sch")
 		(attr smd)
