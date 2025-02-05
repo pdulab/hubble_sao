@@ -9946,7 +9946,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 30.48 151.13 270)
+		(at 43.18 151.13 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9956,7 +9956,7 @@
 		(fields_autoplaced yes)
 		(uuid "98b178e4-f1c4-481b-8ff5-1c24b2ac1d7f")
 		(property "Reference" "R1"
-			(at 30.48 144.78 90)
+			(at 43.18 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9964,7 +9964,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 30.48 147.32 90)
+			(at 43.18 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,7 +9972,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 30.48 152.908 90)
+			(at 43.18 152.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9981,7 +9981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 151.13 0)
+			(at 43.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,7 +9990,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 30.48 151.13 0)
+			(at 43.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +10305,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 43.18 151.13 0)
+		(at 30.48 151.13 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10315,7 +10315,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7c08abe-f974-45ce-b35f-ff3496eb6e14")
 		(property "Reference" "D6"
-			(at 44.7675 144.78 0)
+			(at 32.0675 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10323,7 +10323,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 44.7675 147.32 0)
+			(at 32.0675 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10331,7 +10331,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
-			(at 43.18 151.13 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10340,7 +10340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 151.13 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10349,7 +10349,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 43.18 151.13 0)
+			(at 30.48 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
