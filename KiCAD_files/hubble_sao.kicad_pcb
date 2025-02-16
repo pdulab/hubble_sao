@@ -4879,7 +4879,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "470"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "275edbc8-4e9d-4b19-8fc4-6d5c3ded6452")
@@ -7663,7 +7663,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "470"
 			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "9fe74340-79ba-408e-bfee-bc16b8428f19")

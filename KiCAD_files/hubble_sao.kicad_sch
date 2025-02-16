@@ -6119,9 +6119,9 @@
 		)
 		(uuid "a50188ac-f8cb-47cd-9e5b-15531406d78f")
 	)
-	(text "GPIO Connection\nRX/TX Poka Yoke"
+	(text "GPIO Connection\nRX/TX Poka Yoke\n+\nShort Circuit Protection"
 		(exclude_from_sim no)
-		(at 34.036 59.182 0)
+		(at 34.036 61.214 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8448,7 +8448,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "470"
 			(at 34.29 52.07 90)
 			(effects
 				(font
@@ -9424,7 +9424,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "470"
 			(at 34.29 48.26 90)
 			(effects
 				(font
