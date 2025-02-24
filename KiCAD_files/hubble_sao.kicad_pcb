@@ -11403,8 +11403,8 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "WayWayWay"
-		(at 79.75 140.25 0)
+	(gr_text "MfgStr"
+		(at 76.2 139.7 0)
 		(layer "B.SilkS")
 		(uuid "1c0401fa-321e-417d-9454-39fcc1bf9108")
 		(effects
@@ -11413,7 +11413,7 @@
 				(thickness 0.15)
 				(bold yes)
 			)
-			(justify left bottom mirror)
+			(justify mirror)
 		)
 	)
 	(gr_text "LSM6DSO"
