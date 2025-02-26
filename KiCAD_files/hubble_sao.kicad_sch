@@ -4041,6 +4041,12 @@
 		(uuid "11dcaa1e-3656-49d7-845d-ead004dbaca9")
 	)
 	(junction
+		(at 88.9 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f110e2c-b3a7-4e8d-b75b-29e86247265a")
+	)
+	(junction
 		(at 167.64 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4518,6 +4524,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 161.29) (xy 88.9 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15ad39d0-9935-4536-a0c7-49d29403900f")
+	)
+	(wire
+		(pts
 			(xy 152.4 132.08) (xy 167.64 132.08)
 		)
 		(stroke
@@ -4605,6 +4621,16 @@
 			(type default)
 		)
 		(uuid "2856e2bb-ecf8-4566-aa5b-b9483183624f")
+	)
+	(wire
+		(pts
+			(xy 88.9 165.1) (xy 88.9 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296c14f2-ee51-4949-a730-4cce4a37a6a9")
 	)
 	(wire
 		(pts
@@ -4935,6 +4961,16 @@
 			(type default)
 		)
 		(uuid "45e8024c-a5aa-4b15-b4cd-facf506c3a29")
+	)
+	(wire
+		(pts
+			(xy 88.9 175.26) (xy 88.9 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46f8635c-2eb4-4331-b47a-eab03e0824c7")
 	)
 	(wire
 		(pts
@@ -7739,6 +7775,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 88.9 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "19deb42b-0611-43ab-89c7-14fc09a1c07b")
+		(property "Reference" "C15"
+			(at 82.296 169.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 82.296 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 89.8652 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82586a2f-b031-4a80-8968-80ca931239d1")
+		)
+		(pin "1"
+			(uuid "36a71343-c7e5-4242-a637-ab7efc401ece")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 266.7 39.37 0)
 		(unit 1)
@@ -9815,6 +9920,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 88.9 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "811640fd-7695-48c7-b612-d46abc77a21e")
+		(property "Reference" "#PWR040"
+			(at 88.9 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1be8ddc-f0aa-4f15-9b2b-0d1ed12259dd")
+		)
+		(instances
+			(project ""
+				(path "/9cd05651-fad9-4e28-8d04-6923ebe26f0c"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 152.4 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11285,7 +11456,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 88.9 165.1 0)
+		(at 88.9 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11295,7 +11466,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9d48304-8560-480e-95a3-3b466a0d06bc")
 		(property "Reference" "#PWR033"
-			(at 88.9 168.91 0)
+			(at 88.9 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11304,7 +11475,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 88.9 160.02 0)
+			(at 88.9 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11312,7 +11483,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 165.1 0)
+			(at 88.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11321,7 +11492,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 165.1 0)
+			(at 88.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11330,7 +11501,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 88.9 165.1 0)
+			(at 88.9 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
