@@ -7,6 +7,11 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "Hubble SAO")
+		(rev "2.0")
+		(company "pdulab")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
@@ -12845,7 +12850,7 @@
 			)
 		)
 	)
-	(gr_text_box "Rev 1.0\nSept. 2024"
+	(gr_text_box "Rev 2.0\nFeb. 2025"
 		(start 71.25 134.75)
 		(end 79.75 138)
 		(layer "B.SilkS")
